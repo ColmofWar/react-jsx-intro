@@ -7,6 +7,7 @@
  * - message
  */
 
+
 function Tweet({ date, message, name, username }) {
     return (
       <div className="tweet">
@@ -17,3 +18,5 @@ function Tweet({ date, message, name, username }) {
       </div>
     );
   }
+
+  export default Tweet;
